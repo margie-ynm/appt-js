@@ -9,46 +9,53 @@
   </head>
   <body>
     <div class="container">
-
-      <form>
-        <div id="information">
-          <div class="form-group">
-            <label for="name">Enter your name</label>
-            <input type="text" id="name" class="form-control">
-          </div>
-          <div class="form-group">
-            <label for="reason">Reason for Visit:</label>
-            <select class="form-control" id="reason">
-              <option>Influenza virus</option>
-              <option>Mononucleosis</option>
-              <option>Bone Fracture</option>
-              <option>Muscle Injury</option>
-              <option>Margieitis</option>
-              <optio>Jamesingitis</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="appt">Appointment Date:</label>
-            <input id="appt" class="form-control" type="date">
-          </div>
-          <div class="form-group">
-            Select a time:
-            <input type="time" name="usr_time" id="start-time">
-          </div>
-          <div class="form-group">
-            Select an end time:
-            <input type="time" name="usr_time" id="end-time">
-          </div>
+      <h1>Information for Appointment with Dr. Dre</h1>
+      <div class="row">
+        <div class="col-md-4 col-lg-4">
+          <img class="img-responsive" src="img/dre.jpg" alt="Doctor Dre" />
         </div>
+        <div class="col-md-8 col-lg-8">
+          <form>
+            <div id="information">
+              <div class="form-group">
+                <label for="name">Enter your name</label>
+                <input type="text" id="name" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="reason">Reason for Visit:</label>
+                <select class="form-control" id="reason">
+                  <option>Influenza virus</option>
+                  <option>Mononucleosis</option>
+                  <option>Bone Fracture</option>
+                  <option>Muscle Injury</option>
+                  <option>Margieitis</option>
+                  <optio>Jamesingitis</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="appt">Appointment Date:</label>
+                <input id="appt" class="form-control" type="date">
+              </div>
+              <div class="form-group">
+                Select a time:
+                <input type="time" name="usr_time" id="start-time">
+              </div>
+              <div class="form-group">
+                Select an end time:
+                <input type="time" name="usr_time" id="end-time">
+              </div>
+            </div>
 
-        <button class="btn btn-primary" type="submit" name="button">Submit</button>
-      </form>
-      <div class="receipt-output center-block">
-        <div class="receipt">
-          <h3>Appointment Information:</h3>
-          <p>Thank for scheduling with us, <span class="name"></span>.</p>
-          <p>The reason for your visit is regarding <span class="reason"></span></p>
-          <p>Your appointment is set for <span class="appt"></span> from <span class="start-time"></span> to <span class="end-time"></span>.</p>
+            <button class="btn btn-primary" type="submit" name="button">Submit</button>
+          </form>
+        </div>
+        <div class="receipt-output center-block">
+          <div class="receipt">
+            <h3>Appointment Information:</h3>
+            <p>Thank for scheduling with us, <span class="name"></span>.</p>
+            <p>The reason for your visit is regarding <span class="reason"></span></p>
+            <p>Your appointment is set for <span class="appt"></span> from <span class="start-time"></span> to <span class="end-time"></span>.</p>
+          </div>
         </div>
       </div>
     </div>

@@ -15,6 +15,7 @@ $(document).ready(function() {
     $(".end-time").text(endInput);
 
     $("form").hide();
+    $("img").hide();
     $(".receipt-output").show();
 
     event.preventDefault();
